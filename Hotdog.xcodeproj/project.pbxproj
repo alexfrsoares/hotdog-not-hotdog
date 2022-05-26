@@ -13,6 +13,7 @@
 		922A59E1283FB180007A861D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922A59DF283FB180007A861D /* Main.storyboard */; };
 		922A59E3283FB182007A861D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922A59E2283FB182007A861D /* Assets.xcassets */; };
 		922A59E6283FB182007A861D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922A59E4283FB182007A861D /* LaunchScreen.storyboard */; };
+		922A59EE283FB4B5007A861D /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 922A59ED283FB4B5007A861D /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		922A59E2283FB182007A861D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		922A59E5283FB182007A861D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		922A59E7283FB182007A861D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922A59ED283FB4B5007A861D /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				922A59DF283FB180007A861D /* Main.storyboard */,
 				922A59E2283FB182007A861D /* Assets.xcassets */,
 				922A59E4283FB182007A861D /* LaunchScreen.storyboard */,
+				922A59ED283FB4B5007A861D /* Inceptionv3.mlmodel */,
 				922A59E7283FB182007A861D /* Info.plist */,
 			);
 			path = Hotdog;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				922A59DE283FB180007A861D /* ViewController.swift in Sources */,
+				922A59EE283FB4B5007A861D /* Inceptionv3.mlmodel in Sources */,
 				922A59DA283FB180007A861D /* AppDelegate.swift in Sources */,
 				922A59DC283FB180007A861D /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
